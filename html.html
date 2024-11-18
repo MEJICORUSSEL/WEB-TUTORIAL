@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+    <link rel="icon" href="pic.png" type="image/x-icon">
+    <title>Web Tutorial</title>
+</head>
+<body>
+    <div id="moon-icon" onclick="toggleDarkMode()">🌙</div>
+<div class="container">
+ <div class="con">
+    <h3>Click Below For Free Tutorial!</h3>
+    <div class="con1">
+        <table>
+            <tr>
+                <th>Language</th>
+            </tr>
+            <tr>
+                <td> <a href="html.html">HTML</a></td>
+            </tr>
+            <tr>
+                <td> <a href="css.html">CSS</a></td>
+            </tr>
+            <tr>
+                <td> <a href="js.html">JavaScript</a></td>
+            </tr>
+        </table>
+    </div>
+    <h3>For more tutorials, just <a href="https://www.w3schools.com/" target="_blank" >click here!</a></h3>
+</div>
+
+
+
+<div class="scroll-container" id="scrollContainer">
+    <h1>HTML TUTORIAL</h1>
+    <br>
+    <p>HTML, or Hypertext Markup Language, is the standard language for creating 
+        webpages and web applications. It structures content on the web, allowing browsers to interpret and display text, 
+        images, links, videos, and other elements. HTML consists of elements (or tags) that define different parts of a webpage, 
+        such as headings, paragraphs, images, and links.</p>
+
+        <button>
+            <a href="https://www.youtube.com/watch?v=29l2qxSJSIw&list=PLVnJhHoKgEmoQ_6hXCKNDa2zTlzu5xe4k" target="_blank"> Watch to Learn More</a>
+        </button>
+
+        <h2> Simple HTML Code</h2>
+        <br>
+        <div class="con2">
+        <pre><code>
+            <span class="tag">
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;My Webpage&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                &lt;p&gt;Hello, World!&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </span>
+            </code></pre>
+        </div>
+            
+            <button>
+                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro" target="_blank"> Try it yourself using w3School</a>
+            </button>
+    <div class="con3">
+            <ul>
+                <h2>Example Explained</h2>
+                <br>
+                <li>The <span class="tag">&lt;!DOCTYPE html&gt;</span> declaration defines that this document is an HTML5 document</li>
+                <li> The <span class="tag">&lt;html&gt;</span> element is the root element of an HTML page</li>
+                <li>The <span class="tag">&lt;head&gt;</span> element contains meta information about the HTML page </li>
+                <li>The <span class="tag">&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) </li>
+                <li> The <span class="tag">&lt;body&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                <li> The <span class="tag">&lt;h1&gt;</span> element defines a large heading </li>
+                <li> The <span class="tag">&lt;p&gt;</span> element defines a paragraph</li>
+            </ul>
+        </div>
+        <hr>
+    <br>
+        <h2> HTML Basic Examples</h2>
+        <br>
+        <p> In this chapter we will show some basic HTML examples. </p> 
+        <p>Don't worry if we use tags you have not learned about yet.</p>
+        <br>
+        <br>
+        <h2> HTML Documents</h2>
+       <br>
+        <p>All HTML documents must start with a document type declaration: <span class="tag">&lt;!DOCTYPE html&gt;</span>. </p>
+
+<p> The HTML document itself begins with <span class="tag">&lt;html&gt;</span> and ends with <span class="tag">&lt;/html&gt;</span>. </p>
+
+<p>The visible part of the HTML document is between <span class="tag">&lt;body&gt;</span> and <span class="tag">&lt;/body&gt;</span>. </p>
+<br>
+<br>
+<h2> Example </h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;My Webpage&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt;My first paragraph.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </span>
+        </code></pre>
+    </div>
+    <button>
+        <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro" target="_blank"> Try it yourself using w3School</a>
+    </button>
+<br>
+    <h2>The <span class="tag">&lt;!DOCTYPE&gt;</span> Declaration</h2>
+<br>
+<p> <span class="tag">&lt;!DOCTYPE&gt;</span> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+
+<p>It must only appear once, at the top of the page (before any HTML tags).</p>
+
+<p>The <span class="tag">&lt;!DOCTYPE&gt; </span>declaration is not case sensitive.</p>
+
+<p>The <span class="tag">&lt;!DOCTYPE&gt;</span> declaration for HTML5 is:</p>
+<br>
+
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+        &lt;!DOCTYPE html&gt;
+    </span>
+        </code></pre>
+        </div>
+
+<br>
+<br>
+        <h2>HTML Headings</h2>
+        <br>
+                <p>HTML headings are defined with the <span class="tag">&lt;h1&gt; </span> to <span class="tag">&lt;h6&gt; </span> tags.</p>
+
+           <p> <span class="tag">&lt;h1&gt; </span> defines the most important heading. <span class="tag">&lt;h6&gt; </span> defines the least important heading:</p> 
+<br>
+<br>
+           <h2> Example </h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+        &lt;h1&gt; This is heading 1 &lt;/h1&gt;
+        &lt;h2&gt; This is heading 2 &lt;/h2&gt;
+        &lt;h3&gt; This is heading 3 &lt;/h3&gt;
+        &lt;h4&gt; This is heading 4 &lt;/h4&gt;
+        &lt;h5&gt; This is heading 5 &lt;/h5&gt;
+        &lt;h6&gt; This is heading 6 &lt;/h6&gt;
+
+    </span>
+        </code></pre>
+ </div>
+
+ <button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings" target="_blank"> Try it yourself using w3School</a>
+</button>
+ 
+<br>
+<br>
+
+<h2>HTML Paragraphs</h2>
+<br>
+<p> HTML paragraphs are defined with the <span class="tag">&lt;p&gt;</span> tag:</p>
+<br>
+<br>
+<h2> Example</h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+        &lt;p&gt; This is a paragraph &lt;/p&gt;
+        &lt;p&gt; This is a paragraph &lt;/p&gt;
+    </span>
+        </code></pre>
+ </div>
+ <button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs" target="_blank"> Try it yourself using w3School</a>
+</button>
+
+<h2>HTML Links</h2>
+<br>
+<p> HTML links are defined with the <span class="tag">&lt;a&gt;</span> tag:</p>
+<br>
+<br>
+<h2> Example</h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+            &lt;a href="https://www.youtube.com"&gt;This is a link&lt;/a&gt;
+    </span>
+        </code></pre>
+ </div>
+ <button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link" target="_blank"> Try it yourself using w3School</a>
+</button>
+
+<p>The link's destination is specified in the href attribute.</p>
+
+<p>Attributes are used to provide additional information about HTML elements.</p>
+
+<p>You will learn more about attributes in a later chapter.</p>
+<br>
+<br>
+<h2>HTML Images</h2>
+<br>
+<p> HTML images are defined with the <span class="tag">&lt;img&gt;</span> tag:</p>
+<p> The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+<br>
+<br>
+<h2> Example</h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+            &lt;img src="frogpic.jpg" alt="frogpic.com" width="104" height="142"&gt;
+    </span>
+        </code></pre>
+ </div>
+ <button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img" target="_blank"> Try it yourself using w3School</a>
+</button>
+<br>
+<br>
+
+
+<h2>How to View HTML Source</h2>
+<br>
+<p> Have you ever seen a Web page and wondered "Hey! How did they do that?"</p>
+<br>
+<h3>View HTML Source Code:</h3>
+<br>
+<p> Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". 
+    This will open a new tab containing the HTML source code of the page.</p>
+    <br>
+    <h3> Inspect an HTML Element:</h3>
+    <br>
+    <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of 
+        (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
+<br>
+<br>
+<hr>
+<br>
+
+ 
+ <br>
+<h2>HTML Elements</h2>
+<br>
+<p> An HTML element is defined by a start tag, some content, and an end tag.</p>
+<br>
+<h3>HTML Elements</h3>
+<br>
+<p> The HTML element is everything from the start tag to the end tag:</p>
+    <br>
+    <h3> &lt;tagname>Content goes here...&lt/tagname></h3>
+    <br>
+    <h2> Examples of some HTML elements:</h2>
+    <br>
+
+    <div class="con2">
+        <pre><code>
+            <span class="tag">
+                &lt;h1&gt;My First Heading&lt;/h1&gt
+
+                &lt;p&gt;My first paragraph.&lt;/p&gt;
+        </span>
+            </code></pre>
+     </div>
+    
+<br>
+<br>
+
+<div class="con4">
+
+    <table>
+        <tr>
+            <th>Start tag</th>
+            <th>Element content</th>
+            <th>End tag</th>
+            
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>&lt;p&gt;</td>
+            <td>&lt;br&gt;</td>
+            
+        </tr>
+        <tr>
+            <td>My First Heading</td>
+            <td>My first paragraph.</td>
+            <td>none</td>
+           
+        </tr>
+        <tr>
+            <td>&lt;/h1&gt;</td>
+            <td>&lt;/p&gt;</td>
+            <td>none</td>
+            
+        </tr>
+    </table>
+</div>
+
+<br>
+<h2>Nested HTML Elements</h2>
+<br>
+<p> HTML elements can be nested (this means that elements can contain other elements).</p>
+<br>
+<p> All HTML documents consist of nested HTML elements.</p>
+<br>
+<p> The following example contains four HTML elements (<span class="tag">&lt;html&gt;</span>, 
+    <span class="tag">&lt;body&gt;</span>, <span class="tag">&lt;h1&gt;</span> and <span class="tag">&lt;p&gt;</span>): </p>
+<br>
+<br>
+<h2>Example</h2>
+
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;body&gt;
+
+             &lt;p&gt;This is a paragraph&lt;/p&gt;
+             &lt;p&gt;This is a paragraph&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;   
+        
+    </span>
+        </code></pre>
+ </div>
+    
+<button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements" target="_blank"> Try it yourself using w3School</a>
+</button>
+<br>
+
+ 
+<br>
+<h2>Example Explained</h2>
+<br>
+<p> The <span class="tag">&lt;html&gt;</span> element is the root element and it defines the whole HTML document.</p>
+<br>
+<p>It has a start tag <span class="tag">&lt;html&gt;</span> and an end tag <span class="tag">&lt;/html&gt;</span>.</p>
+<br>
+<p>Then, inside the <span class="tag">&lt;html&gt;</span> element there is a <span class="tag">&lt;body&gt;</span> element:</p>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+            &lt;body&gt;
+
+             &lt;h1&gt;My First Heading&lt;/h1&gt;
+             &lt;p&gt;My first paragraph.&lt;/p&gt;
+
+            &lt;/body&gt;  
+        
+    </span>
+        </code></pre>
+ </div>
+<br>
+ <p> The <span class="tag">&lt;body&gt;</span> element defines the document's body.</p>
+<br>
+<p>It has a start tag <span class="tag">&lt;body&gt;</span> and an end tag <span class="tag">&lt;/body&gt;</span>.</p>
+<br>
+<p>Then, inside the <span class="tag">&lt;body&gt;</span> element there are two other elements: <span class="tag">&lt;h1&gt;</span> and
+    <span class="tag">&lt;p&gt;</span></p>
+<br>
+<br>
+
+<div class="con2">
+    <pre><code>
+        <span class="tag">  
+             &lt;h1&gt;My First Heading&lt;/h1&gt;
+             &lt;p&gt;My first paragraph.&lt;/p&gt;  
+    </span>
+        </code></pre>
+ </div>
+
+ <br>
+ <p> The <span class="tag">&lt;h1&gt;</span> element defines a heading.</p>
+<br>
+<p>It has a start tag <span class="tag">&lt;h1&gt; and an end tag <span class="tag">&lt;/h1&gt;:</p>
+<br>
+
+<div class="con2">
+    <pre><code>
+        <span class="tag">  
+             &lt;h1&gt;My First Heading&lt;/h1&gt;
+    </span>
+        </code></pre>
+ </div>
+ <br>
+
+ <br>
+ <p> The <span class="tag">&lt;p&gt;</span> element defines a paragraph.</p>
+<br>
+<p>It has a start tag <span class="tag">&lt;p&gt;</span> and an end tag <span class="tag">&lt;/p&gt;</span>:</p>
+<br>
+
+<div class="con2">
+    <pre><code>
+        <span class="tag">  
+             &lt;p&gt;My First Heading&lt;/p&gt;
+    </span>
+        </code></pre>
+ </div>
+
+ 
+<br>
+<h2>Never Skip the End Tag</h2>
+<br>
+<p> Some HTML elements will display correctly, even if you forget the end tag:</p>
+<br>
+<p>It has a start tag <span class="tag">&lt;html&gt;</span> and an end tag <span class="tag">&lt;/html&gt;</span>.</p>
+<br>
+
+<br>
+<h2>Example</h2>
+<br>
+<div class="con2">
+    <pre><code>
+        <span class="tag">
+            &lt;html&gt;
+            &lt;body&gt;
+
+             &lt;p&gt;This is a paragraph&lt;/p&gt;
+             &lt;p&gt;This is a paragraph&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;        
+    </span>
+        </code></pre>
+ </div>
+ <button>
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_no_endtag" target="_blank"> Try it yourself using w3School</a>
+</button>
+<br>
+
+ 
+<br>
+<h2>HTML Tag Reference</h2>
+<br>
+<p>W3Schools' tag reference contains additional information about these tags and their attributes.</p>
+<br>
+
+<div class="con4">
+
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+            
+            
+        </tr>
+        <tr>
+            <td>&lt;html&gt;</td>
+            <td>Defines the root of an HTML document</td>
+           
+            
+        </tr>
+        <tr>
+            <td>&lt;body&gt;</td>
+            <td>Defines the document's body</td>
+           
+           
+        </tr>
+        <tr>
+            <td>&lt;/h1&gt; to &lt;/h6&gt;</td>
+            <td>Defines HTML headings</td>
+            
+            
+        </tr>
+    </table>
+</div>
+<br>
+<button>
+    <a href="https://www.w3schools.com/tags/default.asp" target="_blank"> Full Html Tags Provided by w3School</a>
+</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
